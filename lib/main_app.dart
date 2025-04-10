@@ -20,9 +20,9 @@ class MainApp extends StatelessWidget {
                 flex: 6,
                 child: Image.network(
                   'https://images.unsplash.com/photo-1560807707-8cc77767d783',
-                  width: 300, // oder jede gewünschte Breite
-                  height: 300, // oder jede gewünschte Höhe
-                  fit: BoxFit.cover, // passt das Bild an den Container an
+                  width: 300,
+                  height: 300,
+                  fit: BoxFit.cover,
                 ),
               ),
               Expanded(
